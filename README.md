@@ -9,7 +9,8 @@ To use
   <img src="img/pop-up_git-not-found.png" width="85%">
 * To setup languageserver features in the devcontainer the first time you open the container you may see this popup in VSCode - perhaps counterintuively click *No* on this (as the next command will sort this out)
   <img src="img/languageserver-popup.png" width="85%">
-  In the R session in the Terminal run
+
+  Then in the R session in the Terminal run
   ```r
   source('setup.R')
   ```
