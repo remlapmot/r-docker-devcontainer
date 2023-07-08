@@ -7,6 +7,10 @@ To use
   <img src="img/pop-up_reopen-in-container.png" width="85%">
 * When VS Code reopens using the container, cancel or click "Don't Show Again" on the following pop-up about Git not being found
   <img src="img/pop-up_git-not-found.png" width="85%">
+* To setup languageserver features in the devcontainer the first time you open the container please run in R
+  ```r
+  source('setup.R')
+  ```
 * To run R commands in the R session running in the VSCode Terminal because hopefully the *.Rprofile* file, which automatically runs when the R session is starts, should have setup language server features, such as
   * Your *.R* files should have syntax highlighting and command autocompletion as you type
     <img src="img/languageserver-screenshot.png" width="85%">
@@ -20,8 +24,6 @@ To use
 
 ## Notes 
 
-In the devcontainer the REditorSupport VSCode extension is added ([VSCode extension marketplace entry](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r)).
-
-The devcontainer docs for this are [here](https://code.visualstudio.com/docs/devcontainers/containers#_create-a-devcontainerjson-file).
-
-The full list of features of REditorSupport is [here](https://github.com/REditorSupport/vscode-R/wiki/R-Language-Service).
+* In the devcontainer the REditorSupport VSCode extension is added ([VSCode extension marketplace entry](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r)).
+* The devcontainer docs for this are [here](https://code.visualstudio.com/docs/devcontainers/containers#_create-a-devcontainerjson-file).
+* The full list of features of REditorSupport is [here](https://github.com/REditorSupport/vscode-R/wiki/R-Language-Service).
