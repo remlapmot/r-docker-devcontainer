@@ -1,1 +1,0 @@
-R --vanilla < setup.R
