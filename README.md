@@ -27,6 +27,6 @@ To use
 * The relevant devcontainer docs are [here](https://code.visualstudio.com/docs/devcontainers/containers#_create-a-devcontainerjson-file)
 * The full list of features of REditorSupport is [here](https://github.com/REditorSupport/vscode-R/wiki/R-Language-Service)
 * On M1/M2 Macs the installation of the REditorSupport extension can sometimes hang, see this algorithm [here](https://github.com/microsoft/vscode-remote-release/issues/8169#issuecomment-1543987445) to hopefully and get out of this, which involves
-  * On first building the container
-  * Press Cmd shift P, reload window
-  * Then go to Extensions pane - the middle section for the devcontainer - and install REditorSupport in the devcontainer
+  * On first building the container press <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>, select *Developer: Reload Window*
+  * Then go to the Extensions pane - the middle section for the devcontainer - click on the cloud icon and install the R extension in the devcontainer by searching for "r" then pressing *OK*
+  <img src="img/vscode-install-reditorsupport.png" width="85%">
