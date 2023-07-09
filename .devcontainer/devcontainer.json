@@ -1,6 +1,7 @@
 {
   "image": "ghcr.io/opensafely-core/r:latest",
-  "postCreateCommand": "bash setup.sh && R",
+  "postCreateCommand": "bash setup.sh",
+  "postAttachCommand": "R",
   "customizations": {
     // Configure properties specific to VS Code.
     "vscode": {
