@@ -10,11 +10,7 @@ To use
 * To setup languageserver features in the devcontainer the first time you open the container you may see this popup in VSCode - perhaps counterintuively click *No* on this (as the next command will sort this out)
   <img src="img/languageserver-popup.png" width="85%">
 
-  Then in the R session in the Terminal run
-  ```r
-  source('setup.R')
-  ```
-* To run R commands in the R session running in the VSCode Terminal because hopefully the *.Rprofile* file, which automatically runs when the R session is starts, should have setup language server features, such as
+* To run R commands in the R session running in the VSCode Terminal because hopefully the *.Rprofile* file, which automatically runs when the R session starts, should have setup language server features, such as
   * Your *.R* files should have syntax highlighting and command autocompletion as you type
     <img src="img/languageserver-screenshot.png" width="85%">
   * You should be able to run R commands line by line (or highlighting a selection) by pressing <kbd>Ctrl</kbd>+<kbd>Enter</kbd> (<kbd>Cmd</kbd>+<kbd>Enter</kbd> on a Mac).
@@ -30,3 +26,5 @@ To use
 * In the devcontainer the REditorSupport VSCode extension is added ([VSCode extension marketplace entry](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r)).
 * The devcontainer docs for this are [here](https://code.visualstudio.com/docs/devcontainers/containers#_create-a-devcontainerjson-file).
 * The full list of features of REditorSupport is [here](https://github.com/REditorSupport/vscode-R/wiki/R-Language-Service).
+
+* On M1/M2 Macs the installation of the REditorSupport extension can sometimes hang, see this algorithm [here](https://github.com/microsoft/vscode-remote-release/issues/8169#issuecomment-1543987445) to hopefully and get out of this.
