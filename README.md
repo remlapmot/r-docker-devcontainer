@@ -23,12 +23,17 @@ To use
     source("test.R")
     ```
 
-## Notes 
+## Notes
 
 * The REditorSupport VSCode extension is installed in the devcontainer; [VSCode extension marketplace entry](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r)
 * The relevant devcontainer docs are [here](https://code.visualstudio.com/docs/devcontainers/containers#_create-a-devcontainerjson-file)
 * The full list of features of REditorSupport is [here](https://github.com/REditorSupport/vscode-R/wiki/R-Language-Service)
-* On M1/M2 Macs the installation of the REditorSupport extension can sometimes hang, see this algorithm [here](https://github.com/microsoft/vscode-remote-release/issues/8169#issuecomment-1543987445) to hopefully and get out of this, which involves
+
+### Users with Apple Silicon Macs
+
+* On M1/M2 Macs the installation of the REditorSupport extension within the devcontainer seems to almost always hang
+* To stop the hanging and get the extension installed you need to (procedure derived from [here](https://github.com/microsoft/vscode-remote-release/issues/8169#issuecomment-1543987445))
   * On first building the container press <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>, select *Developer: Reload Window*
   * Then go to the Extensions pane - the middle section for the devcontainer - click on the cloud icon and install the R extension in the devcontainer by searching for "r" then pressing *OK*
   <img src="img/vscode-install-reditorsupport.png" width="85%">
+  * The extension should now be installed in the devcontainer and the R language server should work as expected
