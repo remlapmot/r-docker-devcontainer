@@ -35,5 +35,6 @@ To use
 * To stop the hanging and get the extension installed you need to (procedure derived from [here](https://github.com/microsoft/vscode-remote-release/issues/8169#issuecomment-1543987445))
   * On first building the container press <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>, select *Developer: Reload Window*
   * Then go to the Extensions pane - the middle section for the devcontainer - click on the cloud icon and install the R extension in the devcontainer by searching for "r" then pressing *OK*
-  <img src="img/vscode-install-reditorsupport.png" width="85%">  
+  <img src="img/vscode-install-reditorsupport.png" width="85%">
+
   * The extension should now be installed in the devcontainer and the R language server should work as expected
