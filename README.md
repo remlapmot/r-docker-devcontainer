@@ -14,8 +14,10 @@ To use
   * Your *.R* files should have syntax highlighting and command autocompletion as you type
     <img src="img/languageserver-screenshot.png" width="85%">
   * You should be able to run R commands line by line (or highlighting a selection) by pressing <kbd>Ctrl</kbd>+<kbd>Enter</kbd> (<kbd>Cmd</kbd>+<kbd>Enter</kbd> on a Mac)
-  * Plots should be viewable and pop out in their own window or in a VSCode pane, e.g. a test `plot(1:10)` should popup as
+  * Plots should be viewable and pop out in their own window or in a VSCode pane, e.g. a test `plot(1:10)` should popup (when run from Windows) as
     <img src="img/httpgd-test-plot.png" width="85%">
+
+    on macOS the plots may display in a VSCode tab.
   * Alternatively you can run *.R* scripts in the R session with for example
     ```r
     source("test.R")
