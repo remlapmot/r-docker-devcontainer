@@ -1,8 +1,9 @@
 # Test running r-docker in a devcontainer
 
-To use
+To use the devcontainer in an OS project copy the *.devcontainer* directory (with its contents) to the root of your OS project.
 
-* Open this repo in VS Code
+When you open this or your project in VSCode
+
 * When prompted with the following pop-up click *Reopen in Container*
   <img src="img/pop-up_reopen-in-container.png" width="85%">
 * When VS Code reopens using the container, click *cancel* or click *Don't Show Again* on the following pop-up about Git not being found
